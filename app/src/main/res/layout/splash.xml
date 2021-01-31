@@ -10,19 +10,21 @@
         android:id="@+id/TextViewTopTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center"
+        android:gravity="top|center"
         android:text="@string/app_logo_top"
-        android:textColor="@color/version_color"
+        android:textColor="@color/logo_color"
         android:textSize="@dimen/logo_size"
         tools:ignore="SpUsage" />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:stretchColumns="*">
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal">
@@ -30,12 +32,14 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:contentDescription="@string/imageview"
                 android:src="@drawable/splash1" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:contentDescription="@string/imageview"
                 android:src="@drawable/splash2" />
         </TableRow>
@@ -49,12 +53,14 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:contentDescription="@string/imageview"
                 android:src="@drawable/splash3" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:contentDescription="@string/imageview"
                 android:src="@drawable/splash4" />
         </TableRow>
@@ -66,7 +72,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/app_logo_bottom"
-        android:textColor="@color/version_color"
+        android:textColor="@color/logo_color"
         android:textSize="@dimen/logo_size"
         tools:ignore="SpUsage" />
 
@@ -74,10 +80,12 @@
         android:id="@+id/TextViewBottomVersion"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/version_bkgrd"
         android:gravity="center"
         android:lineSpacingExtra="@dimen/version_spacing"
         android:text="@string/app_version_info"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@color/version_color"
         android:textSize="@dimen/version_size"
         tools:ignore="SpUsage" />
 
