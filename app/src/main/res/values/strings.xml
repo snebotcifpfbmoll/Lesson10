@@ -12,4 +12,5 @@
     <string name="title_1">Title 1</string>
     <string name="title_2">Title 2</string>
     <string name="version_info">Version info</string>
+    <string name="main_activity">Main Activity</string>
 </resources>
