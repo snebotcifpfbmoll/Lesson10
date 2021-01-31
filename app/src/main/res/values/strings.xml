@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lesson 10</string>
+    <string name="help">Help Screen</string>
+    <string name="manu">Main Menu Screen</string>
+    <string name="settings">Settings Screen</string>
+    <string name="game">Game Screen</string>
+    <string name="scores">Scores Screen</string>
+    <string name="app_logo_top">BEEN THERE</string>
+    <string name="app_logo_bottom">DONE THAT!</string>
+    <string name="imageview">ImageView</string>
+    <string name="app_version_info">Version 2.0.0\nCopyright © 2021 Serafi Nebot Ginard\nAll Rights Reserved.</string>
+    <string name="title_1">Title 1</string>
+    <string name="title_2">Title 2</string>
+    <string name="version_info">Version info</string>
+</resources>
